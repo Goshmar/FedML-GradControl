@@ -13,6 +13,10 @@ The article focuses on two key issues in federated learning:
 
  - **Inconsistent Optimization Objectives:** Selecting a subset of clients for computation in each round may result in an inconsistency between the optimization objectives and the real target data distribution, particularly problematic in non-IID (non-identically distributed) FL settings.
 
+<p align="center">
+  <img src="/images/FedMeta_round.png" width="900" height="450">
+</p>
+
 _Importance: Federated learning is crucial for privacy preservation and reducing communication costs in distributed systems, making it a hot research topic. Addressing gradient biases and inconsistent optimization objectives is essential for improving the convergence and accuracy of federated models._
 
 ## Examples of Occurrence:
@@ -20,7 +24,15 @@ The problems discussed in the paper occur in scenarios where federated learning 
 
  - **Unbiased Gradient Aggregation (UGA):** This technique leverages a keep-trace gradient descent and gradient evaluation strategy to calculate gradients against the initial global model parameters, effectively reducing gradient biases.
 
+<p align="center">
+  <img src="/images/UGA_algo.png" width="650" height="350">
+</p>
+
  - **Controllable Meta Updating (FedMeta):** This approach introduces an additional meta updating procedure using a small set of data samples (Dmeta) after model aggregation in each round. It aims to provide a clear and consistent optimization objective by optimizing for performance on Dmeta.
+
+<p align="center">
+  <img src="/images/FedMeta_algo.png" width="650" height="350">
+</p>
 
 The authors build their approach on the foundation of FedAvg, which is a fundamental FL algorithm. They extend FedAvg by introducing UGA and FedMeta to mitigate gradient biases and improve optimization objectives.
 
