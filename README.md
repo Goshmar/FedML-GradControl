@@ -2,9 +2,23 @@
 
 The article titled ["Federated Learning with Unbiased Gradient Aggregation and Controllable Meta Updating"](https://arxiv.org/pdf/1910.08234.pdf) addresses the challenges and limitations of federated learning (FL), a decentralized machine learning approach that leverages smart edge devices for training models.
 
-<strong>Last Update: October, 5th, 2023</strong>.	
+<strong>Last Update: October, 28th, 2023</strong>.	
+
+ - _add: UGA, FedMeta reproducing_
+ - _add: report 1 about testing UGA, FedMeta_
+ - _add: comparison plots using UGA and FedMeta_
+ - _add: folder's structure and release_
 
 ---
+
+## Contents
+ - **main/**: Contains 
+
+ - **experiments/**: Contains the main code for reproducing the results and working on the project.
+
+ - **reports/**: Contains supplementary documentation, including reports related to the project.
+
+ - **results**/: Stores the results of experiments and simulations conducted during the research.
 
 ## Problem Statement:
 The article focuses on two key issues in federated learning:
