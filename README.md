@@ -7,7 +7,7 @@ The article titled ["Federated Learning with Unbiased Gradient Aggregation and C
  - _add: CNN & GRU reproducing experiments_
  - _add: report 2 about general and additional experiments_
  - _add: comparison plots of general experiments_
- - _add: new release_
+ - _add: final presenation_
 
 ---
 
