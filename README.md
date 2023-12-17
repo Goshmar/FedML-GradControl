@@ -4,9 +4,9 @@ The article titled ["Federated Learning with Unbiased Gradient Aggregation and C
 
 <strong>Last Update: December, 18th, 2023</strong>.	
 
- - _add: CNN & GRU reproducing experiments__
+ - _add: CNN & GRU reproducing experiments_
  - _add: report 2 about general and additional experiments_
- - _add: comparison plots of general experiments__
+ - _add: comparison plots of general experiments_
  - _add: new release_
 
 ---
