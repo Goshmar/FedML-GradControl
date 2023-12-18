@@ -1,0 +1,12 @@
+torchvision
+tensorflow
+torch
+numpy
+pandas
+platform
+pathlib
+time
+os
+tqdm
+matplotlib
+seaborn
